@@ -1,0 +1,93 @@
+================================================================================
+GITHUB REPOSITORY DETAILS
+================================================================================
+
+Repository Name: scrapper-kiro-version
+
+================================================================================
+DESCRIPTION
+================================================================================
+
+A powerful Python web scraper that identifies top 5 trending organic products globally by aggregating data from multiple sources. Built with Kiro AI. Features BeautifulSoup + Selenium, trend analysis, 281 tests (91% coverage), and comprehensive documentation.
+
+(Alternative shorter version):
+Python web scraper for trending organic products. Multi-source aggregation, trend analysis, 281 tests, 91% coverage. Built with Kiro AI.
+
+
+================================================================================
+WEBSITE
+================================================================================
+
+Leave blank or use:
+https://github.com/akshithnallaginnela/scrapper-kiro-version
+
+
+================================================================================
+TOPICS (GitHub Tags)
+================================================================================
+
+Copy and paste these topics (separate with spaces):
+
+python web-scraping beautifulsoup selenium data-aggregation trend-analysis organic-products ecommerce-scraper kiro-ai automated-testing property-based-testing web-automation data-extraction market-research python3 scraper
+
+
+Individual topics (if you prefer to add one by one):
+- python
+- web-scraping
+- beautifulsoup
+- selenium
+- data-aggregation
+- trend-analysis
+- organic-products
+- ecommerce-scraper
+- kiro-ai
+- automated-testing
+- property-based-testing
+- web-automation
+- data-extraction
+- market-research
+- python3
+- scraper
+
+
+================================================================================
+ADDITIONAL SETTINGS (Recommended)
+================================================================================
+
+✅ Include in the GitHub.com search: YES
+✅ Releases: Enable (you can create v1.0.0 later)
+✅ Packages: Not needed
+✅ Deployments: Not needed
+✅ Environments: Not needed
+
+Features to enable:
+✅ Issues
+✅ Projects (optional)
+✅ Wiki (optional)
+✅ Discussions (optional)
+
+
+================================================================================
+SOCIAL PREVIEW IMAGE (Optional)
+================================================================================
+
+You can add a custom image later showing:
+- Project logo
+- "Organic Products Web Scraper"
+- "Built with Kiro AI"
+- Key features
+
+
+================================================================================
+ABOUT SECTION (After Creating Repo)
+================================================================================
+
+After pushing, edit the About section on GitHub:
+1. Click the gear icon ⚙️ next to "About"
+2. Add description (see above)
+3. Add topics (see above)
+4. Check "Releases" if you want version tags
+5. Save changes
+
+
+================================================================================
