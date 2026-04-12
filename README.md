@@ -260,7 +260,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Built with Kiro AI** - This entire project was created using Kiro, an AI-powered development assistant
+- **Built with the help of assistants of  Kiro AI** -
 - BeautifulSoup for HTML parsing
 - Selenium for browser automation
 - Hypothesis for property-based testing
@@ -268,11 +268,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or support, please open an issue on GitHub.
-
-## ⚠️ Disclaimer
-
-This tool is for educational and research purposes. Always respect website terms of service and robots.txt files. Implement appropriate rate limiting and obtain permission before scraping commercial websites.
-
----
-
-**Made with ❤️ using Kiro AI**
