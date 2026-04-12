@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "name": "Amazon Organic Products",
+      "url": "https://www.amazon.com/s?k=organic+products",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".s-result-item",
+        "name": "h2 .a-text-normal",
+        "price": ".a-price-whole",
+        "link": "h2 a",
+        "image": ".s-image"
+      }
+    },
+    {
+      "name": "Flipkart Organic",
+      "url": "https://www.flipkart.com/search?q=organic+products",
+      "type": "selenium",
+      "selectors": {
+        "container": "._1AtVbE",
+        "name": "._4rR01T",
+        "price": "._30jeq3",
+        "link": "._1fQZEK",
+        "image": "._396cs4"
+      }
+    },
+    {
+      "name": "IndiaMART B2B Organic",
+      "url": "https://www.indiamart.com/impcat/organic-products.html",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".lst",
+        "name": ".pnm",
+        "price": ".prc",
+        "link": ".pnm a",
+        "image": ".pimg img"
+      }
+    }
+  ],
+  "timeout": 30,
+  "retry_attempts": 3,
+  "output_directory": "./output",
+  "browser_type": "chrome",
+  "headless": true,
+  "request_delay_min": 1.0,
+  "request_delay_max": 3.0,
+  "max_concurrent_requests": 5,
+  "log_level": "INFO",
+  "log_file": "scraper.log",
+  "max_log_size_mb": 10,
+  "test_mode": true,
+  "test_data_directory": "./test_data"
+}

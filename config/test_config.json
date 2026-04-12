@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "name": "TestSource1",
+      "url": "http://example.com/organic-products",
+      "type": "static",
+      "selectors": {
+        "container": "div.product",
+        "name": "h2.product-name",
+        "price": "span.price",
+        "link": "a.product-link",
+        "image": "img.product-image"
+      }
+    },
+    {
+      "name": "TestSource2",
+      "url": "http://example2.com/organic",
+      "type": "static",
+      "selectors": {
+        "container": "article.item",
+        "name": "h3.title",
+        "price": "div.cost",
+        "link": "a",
+        "image": "img"
+      }
+    }
+  ],
+  "timeout": 30,
+  "retry_attempts": 3,
+  "output_directory": "./output",
+  "browser_type": "chrome",
+  "headless": true,
+  "request_delay_min": 1.0,
+  "request_delay_max": 3.0,
+  "max_concurrent_requests": 5,
+  "log_level": "INFO",
+  "log_file": "scraper.log",
+  "max_log_size_mb": 10
+}

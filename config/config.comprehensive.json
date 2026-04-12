@@ -1,0 +1,120 @@
+{
+  "_comment": "Comprehensive configuration with B2C, B2B, and organic product sources",
+  "sources": [
+    {
+      "_comment": "B2C Platform - Amazon",
+      "name": "Amazon Organic Products",
+      "url": "https://www.amazon.com/s?k=organic+products",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".s-result-item[data-component-type='s-search-result']",
+        "name": "h2 .a-text-normal",
+        "price": ".a-price-whole",
+        "link": "h2 a.a-link-normal",
+        "image": ".s-image"
+      }
+    },
+    {
+      "_comment": "B2C Platform - Flipkart (requires Selenium)",
+      "name": "Flipkart Organic",
+      "url": "https://www.flipkart.com/search?q=organic+products",
+      "type": "selenium",
+      "selectors": {
+        "container": "._1AtVbE",
+        "name": "._4rR01T",
+        "price": "._30jeq3",
+        "link": "._1fQZEK",
+        "image": "._396cs4"
+      }
+    },
+    {
+      "_comment": "B2B Marketplace - IndiaMART",
+      "name": "IndiaMART B2B Organic",
+      "url": "https://www.indiamart.com/impcat/organic-products.html",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".lst",
+        "name": ".pnm",
+        "price": ".prc",
+        "link": ".pnm a",
+        "image": ".pimg img"
+      }
+    },
+    {
+      "_comment": "B2B Marketplace - TradeIndia",
+      "name": "TradeIndia B2B",
+      "url": "https://www.tradeindia.com/products/organic-products.html",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".product-box",
+        "name": ".product-name",
+        "price": ".product-price",
+        "link": ".product-name a",
+        "image": ".product-img img"
+      }
+    },
+    {
+      "_comment": "B2B Marketplace - Alibaba (requires Selenium)",
+      "name": "Alibaba Organic Products",
+      "url": "https://www.alibaba.com/trade/search?SearchText=organic+products",
+      "type": "selenium",
+      "selectors": {
+        "container": ".organic-list-offer",
+        "name": ".organic-list-offer-title",
+        "price": ".organic-list-offer-price",
+        "link": ".organic-list-offer-outter a",
+        "image": ".organic-list-offer-img img"
+      }
+    },
+    {
+      "_comment": "Organic Product Website - Organic India (Shopify-based, requires Selenium)",
+      "name": "Organic India Store",
+      "url": "https://www.organicindia.com/collections/all",
+      "type": "selenium",
+      "selectors": {
+        "container": ".product-item",
+        "name": ".product-item__title",
+        "price": ".product-item__price",
+        "link": ".product-item__link",
+        "image": ".product-item__image img"
+      }
+    },
+    {
+      "_comment": "Organic Product Website - iHerb",
+      "name": "iHerb Organic Products",
+      "url": "https://www.iherb.com/search?kw=organic+products",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".product-cell",
+        "name": ".product-title",
+        "price": ".product-price",
+        "link": ".product-cell-container a",
+        "image": ".product-image img"
+      }
+    },
+    {
+      "_comment": "B2C Platform - eBay",
+      "name": "eBay Organic Products",
+      "url": "https://www.ebay.com/sch/i.html?_nkw=organic+products",
+      "type": "beautifulsoup",
+      "selectors": {
+        "container": ".s-item",
+        "name": ".s-item__title",
+        "price": ".s-item__price",
+        "link": ".s-item__link",
+        "image": ".s-item__image-img"
+      }
+    }
+  ],
+  "timeout": 45,
+  "retry_attempts": 4,
+  "output_directory": "./output",
+  "browser_type": "chrome",
+  "headless": true,
+  "request_delay_min": 2.0,
+  "request_delay_max": 4.0,
+  "max_concurrent_requests": 3,
+  "log_level": "INFO",
+  "log_file": "scraper.log",
+  "max_log_size_mb": 20
+}

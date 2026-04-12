@@ -1,0 +1,94 @@
+================================================================================
+ORGANIC PRODUCTS WEB SCRAPER - START HERE
+================================================================================
+
+QUICK START (3 steps):
+----------------------
+
+1. Double-click: run_scraper.bat
+   (This runs the scraper in test mode - works instantly!)
+
+2. Wait a few seconds for it to complete
+
+3. Double-click: view_results.bat
+   (This opens your results)
+
+That's it! You'll see the top 5 trending organic products.
+
+
+WHAT HAPPENED WITH LIVE SCRAPING?
+----------------------------------
+
+You tried run_scraper_live.bat and it failed. This is NORMAL.
+
+Why it failed:
+- Amazon: Blocking automated requests (503 errors)
+- Flipkart: Detected CAPTCHA
+- IndiaMART: URL not found (404)
+
+Major e-commerce sites actively block web scrapers. This is expected behavior.
+
+
+WHAT TO DO NOW:
+---------------
+
+✅ USE TEST MODE (Recommended):
+   - Double-click: run_scraper.bat
+   - Uses cached data
+   - Works perfectly
+   - Shows you how the scraper works
+
+✅ VIEW RESULTS:
+   - Double-click: view_results.bat
+   - See the JSON and CSV files
+   - Analyze the trending products
+
+✅ CHECK SETUP:
+   - Double-click: check_setup.bat
+   - Verifies everything is installed correctly
+
+
+FOR REAL WEBSITE SCRAPING:
+---------------------------
+
+To scrape live websites, you need:
+1. Proxy services ($50-200/month)
+2. CAPTCHA solving services
+3. Slower request rates (5-10 seconds between requests)
+4. More advanced configuration
+
+See HOW_TO_RUN.md for detailed information.
+
+
+FILES YOU HAVE:
+---------------
+
+run_scraper.bat          - Run scraper (TEST MODE - use this!)
+run_scraper_live.bat     - Run scraper (LIVE - requires proxies)
+view_results.bat         - View latest results
+check_setup.bat          - Verify installation
+
+HOW_TO_RUN.md           - Detailed instructions
+README.md               - Full documentation
+TROUBLESHOOTING.md      - Common issues and solutions
+
+
+RESULTS LOCATION:
+-----------------
+
+Your results are saved in the "output" folder:
+- organic_products_*.json (JSON format)
+- organic_products_*.csv (CSV format - open in Excel)
+
+
+NEED HELP?
+----------
+
+1. Read HOW_TO_RUN.md (explains everything)
+2. Read TROUBLESHOOTING.md (common issues)
+3. Check scraper.log (detailed logs)
+
+
+================================================================================
+BOTTOM LINE: Use run_scraper.bat for immediate results!
+================================================================================

@@ -1,0 +1,166 @@
+================================================================================
+HOW TO PUSH THIS PROJECT TO GITHUB
+================================================================================
+
+Repository Name: scrapper-kiro-version
+Visibility: PUBLIC
+
+================================================================================
+STEP-BY-STEP INSTRUCTIONS
+================================================================================
+
+STEP 1: Create GitHub Repository
+---------------------------------
+
+1. Go to https://github.com
+2. Click the "+" icon in top right → "New repository"
+3. Fill in:
+   - Repository name: scrapper-kiro-version
+   - Description: Organic Products Web Scraper built with Kiro AI
+   - Visibility: PUBLIC (select this!)
+   - DO NOT check "Initialize with README"
+   - DO NOT add .gitignore
+   - DO NOT add license
+4. Click "Create repository"
+
+
+STEP 2: Get Your Repository URL
+--------------------------------
+
+After creating the repository, GitHub will show you a URL like:
+https://github.com/YOUR_USERNAME/scrapper-kiro-version.git
+
+Copy this URL!
+
+
+STEP 3: Run Commands in Terminal
+---------------------------------
+
+Open your terminal in this project folder and run:
+
+# Initialize git (if not already done)
+git init
+
+# Add all files
+git add .
+
+# Create initial commit
+git commit -m "Initial commit: Organic Products Web Scraper built with Kiro AI"
+
+# Rename branch to main
+git branch -M main
+
+# Add remote (replace YOUR_USERNAME with your GitHub username)
+git remote add origin https://github.com/YOUR_USERNAME/scrapper-kiro-version.git
+
+# Push to GitHub
+git push -u origin main
+
+
+STEP 4: Verify on GitHub
+-------------------------
+
+1. Go to https://github.com/YOUR_USERNAME/scrapper-kiro-version
+2. You should see all your files
+3. The README.md will be displayed on the main page
+
+
+================================================================================
+QUICK COPY-PASTE COMMANDS
+================================================================================
+
+Replace YOUR_USERNAME with your actual GitHub username, then copy and paste:
+
+git init
+git add .
+git commit -m "Initial commit: Organic Products Web Scraper built with Kiro AI"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/scrapper-kiro-version.git
+git push -u origin main
+
+
+================================================================================
+ALTERNATIVE: Use the Batch File (Windows)
+================================================================================
+
+1. Double-click: PUSH_TO_GITHUB.bat
+2. Follow the instructions it displays
+3. It will prepare everything for you
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "fatal: remote origin already exists"
+Solution: Run: git remote remove origin
+          Then try the git remote add command again
+
+Problem: "Authentication failed"
+Solution: You need to set up GitHub authentication:
+          - Use GitHub Desktop (easiest)
+          - Or set up SSH keys
+          - Or use Personal Access Token
+
+Problem: "Permission denied"
+Solution: Make sure you're logged into GitHub
+          Check your repository name is correct
+
+
+================================================================================
+WHAT'S INCLUDED IN THE REPOSITORY
+================================================================================
+
+✅ Source code (src/)
+✅ Tests (tests/)
+✅ Configuration files (config/)
+✅ Documentation (all .md files)
+✅ Example outputs (examples/)
+✅ Batch files for easy running
+✅ Requirements.txt
+✅ License (MIT)
+✅ .gitignore (properly configured)
+
+❌ Output files (excluded - generated when you run)
+❌ Log files (excluded - generated when you run)
+❌ Virtual environment (excluded - you create this)
+❌ Kiro specs (excluded - internal development files)
+
+
+================================================================================
+AFTER PUSHING TO GITHUB
+================================================================================
+
+Your repository will be public at:
+https://github.com/YOUR_USERNAME/scrapper-kiro-version
+
+Anyone can:
+- View the code
+- Clone the repository
+- Fork it
+- Star it
+- Report issues
+- Contribute via pull requests
+
+
+================================================================================
+UPDATING THE REPOSITORY LATER
+================================================================================
+
+After making changes to your code:
+
+git add .
+git commit -m "Description of your changes"
+git push
+
+
+================================================================================
+NEED HELP?
+================================================================================
+
+- GitHub Docs: https://docs.github.com
+- Git Basics: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+- GitHub Desktop: https://desktop.github.com (easiest way to use Git)
+
+
+================================================================================

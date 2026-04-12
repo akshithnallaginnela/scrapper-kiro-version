@@ -1,0 +1,62 @@
+sources:
+  - name: "Amazon Organic Products"
+    url: "https://www.amazon.com/s?k=organic+products"
+    type: "beautifulsoup"
+    selectors:
+      container: ".s-result-item"
+      name: "h2 .a-text-normal"
+      price: ".a-price-whole"
+      link: "h2 a"
+      image: ".s-image"
+  
+  - name: "Flipkart Organic"
+    url: "https://www.flipkart.com/search?q=organic+products"
+    type: "selenium"
+    selectors:
+      container: "._1AtVbE"
+      name: "._4rR01T"
+      price: "._30jeq3"
+      link: "._1fQZEK"
+      image: "._396cs4"
+  
+  - name: "IndiaMART B2B Organic"
+    url: "https://www.indiamart.com/impcat/organic-products.html"
+    type: "beautifulsoup"
+    selectors:
+      container: ".lst"
+      name: ".pnm"
+      price: ".prc"
+      link: ".pnm a"
+      image: ".pimg img"
+  
+  - name: "TradeIndia B2B"
+    url: "https://www.tradeindia.com/products/organic-products.html"
+    type: "beautifulsoup"
+    selectors:
+      container: ".product-box"
+      name: ".product-name"
+      price: ".product-price"
+      link: ".product-name a"
+      image: ".product-img img"
+  
+  - name: "Organic India Store"
+    url: "https://www.organicindia.com/collections/all"
+    type: "selenium"
+    selectors:
+      container: ".product-item"
+      name: ".product-title"
+      price: ".product-price"
+      link: ".product-link"
+      image: ".product-image img"
+
+timeout: 30
+retry_attempts: 3
+output_directory: "./output"
+browser_type: "chrome"
+headless: true
+request_delay_min: 1.0
+request_delay_max: 3.0
+max_concurrent_requests: 5
+log_level: "INFO"
+log_file: "scraper.log"
+max_log_size_mb: 10

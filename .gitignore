@@ -132,13 +132,25 @@ dmypy.json
 # Project specific
 output/*.json
 output/*.csv
-config/*.yaml
-config/*.json
-!config/.gitkeep
+!output/.gitkeep
+!examples/example_output.json
+!examples/example_output.csv
+!config/config.json
+!config/config.yaml
+!config/config.example.json
+!config/config.example.yaml
+!config/config.comprehensive.json
+!config/config.test_mode.json
 *.log
+!.gitkeep
 chromedriver
 geckodriver
+chromedriver.exe
+geckodriver.exe
 selenium-debug.log
+
+# Kiro specs (optional - remove if you want to include them)
+.kiro/
 
 # OS specific
 .DS_Store
