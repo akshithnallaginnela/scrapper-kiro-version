@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "collection_timestamp": "2024-01-15T10:30:00.123456",
+    "total_sources_configured": 5,
+    "sources_successfully_scraped": [
+      "Amazon Organic Products",
+      "Flipkart Organic",
+      "IndiaMART B2B Organic",
+      "Organic India Store",
+      "iHerb Organic"
+    ],
+    "sources_failed": [],
+    "total_products_found": 47,
+    "top_products_count": 5,
+    "scraping_duration_seconds": 45.23,
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "name": "Organic Coconut Oil - 500ml Cold Pressed",
+      "price": "$12.99",
+      "source": "Amazon Organic Products",
+      "link": "https://www.amazon.com/dp/B08X123456",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71ABC123DEF.jpg",
+      "timestamp": "2024-01-15T10:30:00.123456",
+      "mentions": 4,
+      "sources_list": [
+        "Amazon Organic Products",
+        "Flipkart Organic",
+        "IndiaMART B2B Organic",
+        "iHerb Organic"
+      ]
+    },
+    {
+      "name": "Organic Chia Seeds - 1kg Premium Quality",
+      "price": "₹399",
+      "source": "Flipkart Organic",
+      "link": "https://www.flipkart.com/organic-chia-seeds/p/itm123456789",
+      "image_url": "https://rukminim1.flixcart.com/image/416/416/product.jpg",
+      "timestamp": "2024-01-15T10:30:00.234567",
+      "mentions": 3,
+      "sources_list": [
+        "Flipkart Organic",
+        "IndiaMART B2B Organic",
+        "Organic India Store"
+      ]
+    },
+    {
+      "name": "Organic Turmeric Powder - 200g",
+      "price": "$8.99",
+      "source": "iHerb Organic",
+      "link": "https://www.iherb.com/pr/organic-turmeric-powder/12345",
+      "image_url": "https://s3.images-iherb.com/abc/abc12345_l.jpg",
+      "timestamp": "2024-01-15T10:30:00.345678",
+      "mentions": 3,
+      "sources_list": [
+        "Amazon Organic Products",
+        "iHerb Organic",
+        "Organic India Store"
+      ]
+    },
+    {
+      "name": "Organic Green Tea - 100 Tea Bags",
+      "price": "₹299",
+      "source": "Organic India Store",
+      "link": "https://www.organicindia.com/products/organic-green-tea",
+      "image_url": "https://cdn.shopify.com/s/files/1/0123/4567/products/green-tea.jpg",
+      "timestamp": "2024-01-15T10:30:00.456789",
+      "mentions": 2,
+      "sources_list": [
+        "Organic India Store",
+        "Flipkart Organic"
+      ]
+    },
+    {
+      "name": "Organic Quinoa - 500g White Quinoa",
+      "price": "$14.99",
+      "source": "Amazon Organic Products",
+      "link": "https://www.amazon.com/dp/B08Y987654",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81XYZ789ABC.jpg",
+      "timestamp": "2024-01-15T10:30:00.567890",
+      "mentions": 2,
+      "sources_list": [
+        "Amazon Organic Products",
+        "iHerb Organic"
+      ]
+    }
+  ]
+}
